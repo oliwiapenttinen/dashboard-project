@@ -1,0 +1,32 @@
+body {
+font-family: system-ui, Arial;
+background: #0b1220;
+color: #e5e7eb;
+margin: 0;
+}
+  
+  .container {
+padding: 20px;
+text-align: center;
+}
+  
+  .grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 15px;
+margin: 20px 0;
+}
+  
+  .card {
+background: #111827;
+padding: 18px;
+border-radius: 12px;
+border: 1px solid #1f2937;
+text-align: left;
+}
+  
+button {
+margin-top: 20px;
+padding: 10px 20px;
+cursor: pointer;
+}
