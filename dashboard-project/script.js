@@ -35,7 +35,7 @@ statusElement.style.color = statusColors[newStatus];
  messages[Math.floor(Math.random() * messages.length)];
 
  const log=document.createElement("li");
- log.innerText = "Updated at " +new Date().toLocaleTimeString();
+ log.innerText = `${randomMessage} (${new Date().toLocaleTimeString()})`;
  document.getElementById("logs").appendChild(log);
 }
 
