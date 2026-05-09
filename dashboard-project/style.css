@@ -24,6 +24,10 @@ border-radius: 12px;
 border: 1px solid #1f2937;
 text-align: left;
 }
+
+.card:hover {
+transform: translateY(-2px);
+}
   
 button {
 margin-top: 20px;
